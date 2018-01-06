@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="totchi.apps.a.imall.HomePageModule.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#007FBE"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    >
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_search"
+        />
+    <Button
+        android:id="@+id/Notification"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/iconu"
+        />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/iconv" />
+
+
+</LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+            <TextView
+                android:id="@+id/hometv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Home"
+                android:textColor="#F2F2F2"
+                android:textSize="30sp"
+                android:layout_gravity="left"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:background="#007FBE"/>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+</android.support.design.widget.CoordinatorLayout>

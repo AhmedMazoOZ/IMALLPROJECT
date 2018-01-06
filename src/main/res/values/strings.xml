@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">IMALL</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="email">الأيميل</string>
+    <string name="password">الباسورد</string>
+    <string name="conf_password">  تأكيد الباسورد </string>
+    <string name="phone">  التليفون</string>
+    <string name="name">  الأسم</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="signup">تسجيل مستخدم</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثي</string>
+    <string name="forget_password">نسيت كلمة السر ؟</string>
+    <string name="or">أو</string>
+    <string name="empty_name">الأسم لايمكن ان يكون فارغ</string>
+    <string name="empty_phone">رقم الهاتف لايمكن ان يكون فارغ</string>
+    <string name="empty_cfpass">اعد ادخال الرقم السري </string>
+    <string name="empty_mail">أكتب الأيميل</string>
+    <string name="fillAll">أملأ جميع الخانات</string>
+    <string name="not_same">الرقم السري غير متطابق</string>
+    <string name="status_code">HTTP Status Code:</string>
+    <string name="real_pass">Write password with 8 characters contains only small , Capitals letters and numbers </string>
+    <string name="empty_password">أكتب الباسورد</string>
+    <string name="real_email">أكتب ايميل حقيقي يحتوي على @ و .com</string>
+    <string name="empty_mail_or_password">لايمكن ترك الايميل والباسورد فارغين</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."></string>
+    <string name="enter_email">أدخل الأيميل</string>
+    <string name="enter_code">أدخل الكود</string>
+    <string name="enter_pass">أدخل كلمة السر</string>
+    <string name="reset_pass">أعد ادخال كلمة السر</string>
+    <string name="sure">تأكد من ادخال ايميل صحيح</string>
+    <string name="message">سوف تصلك رسالة على الايميل الخاص بك بها كود التفعيل</string>
+    <string name="submit_code">ارسال</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dialog_msg">هل تريد تسجيل الخروج ؟</string>
+    <string name="cancel">لا</string>
+    <string name="yes">نعم</string>
+    <string name="find">بحث</string>
+    <string name="send">إرسال</string>
+    <string name="aboutus">نبذة عنا</string>
+    <string name="share">ارسال دعوة</string>
+    <string name="setting">الأعدادات</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="login_pass">تسجيل دخول بالرقم السري الجديد</string>
+    <string name="etcode">الكود</string>
+    <string name="code">الكود الذي أدخلته غير صحيحتأكد من ادخال الكود المرسل على ايميلك </string>
+    <string name="empty_code">ادخل الكود الذي اسلمته على الايميل الخاص بك</string>
+    <string name="Home">HOME</string>
+    <string name="Food">FOOD</string>
+    <string name="Cafe">CAFE</string>
+    <string name="Access">ACCESSORIES</string>
+    <string name="Hyper">HYPER</string>
+    <string name="Fashion">FASHION</string>
+    <string name="MAKEUP">MAKEUP</string>
+    <string name="Student">STUDENT</string>
+
+    <string name="NoConnectionError">Check your Internet Connection</string>
+    <string name="TimeoutError">TimeoutError</string>
+    <string name="NetworkError">NetworkError</string>
+    <string name="AuthFailureError">AuthFailureError</string>
+    <string name="error">Wrong Username or password!</string>
+</resources>

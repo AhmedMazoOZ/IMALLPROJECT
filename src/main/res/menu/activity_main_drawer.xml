@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/friend_requests"
+            android:icon="@drawable/ic_frind_requests"
+            android:title="@string/title_activity_requests" />
+        <item
+            android:id="@+id/nearestFriend"
+            android:icon="@drawable/nearestfriend"
+            android:title="@string/nearestFriend" />
+        <item
+            android:id="@+id/howtouse"
+            android:icon="@drawable/howtouse"
+            android:title="@string/howtouse" />
+
+    </group>
+<!-->
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/icony"
+                android:title="@string/aboutus" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/iconz"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/iconaa"
+                android:title="@string/setting" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/iconbb"
+        android:title="@string/logout" />
+
+</menu>
